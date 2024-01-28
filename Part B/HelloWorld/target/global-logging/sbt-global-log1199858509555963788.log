@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.8 (Oracle Corporation Java 21.0.2)
+[debug] Load.defaultLoad until apply took 320.8236ms
+[debug]           Load.loadUnit: plugins took 190.2487ms
+[debug]           Load.loadUnit: defsScala took 0.8105ms
+[debug] [Loading] Scanning directory C:\Users\Asus\Desktop\Chula\Prog Lang\HelloWorld\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Asus\Desktop\Chula\Prog Lang\HelloWorld\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 83.4538 ms
+[debug]               Load.resolveProject(helloworld-build) took 79.7725ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id helloworld-build, base: C:\Users\Asus\Desktop\Chula\Prog Lang\HelloWorld\project, plugins: List(<none>))) took 213.9795ms
+[debug] [Loading] Done in C:\Users\Asus\Desktop\Chula\Prog Lang\HelloWorld\project, returning: (helloworld-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 276.8377ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.5207ms
+[debug]         Load.loadUnit(file:/C:/Users/Asus/Desktop/Chula/Prog%20Lang/HelloWorld/project/, ...) took 484.5591ms
+[debug]       Load.apply: load took 873.1588ms
+[debug]       Load.apply: resolveProjects took 10.5819ms
+[debug]       Load.apply: finalTransforms took 154.7673ms
+[debug]       Load.apply: config.delegates took 21.1166ms
+[debug]       Load.apply: Def.make(settings)... took 823.0945ms
+[debug]       Load.apply: structureIndex took 197.8046ms
+[debug]       Load.apply: mkStreams took 3.3612ms
+[info] loading project definition from C:\Users\Asus\Desktop\Chula\Prog Lang\HelloWorld\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 7250.0702ms
+[debug]     Load.loadUnit: defsScala took 0.0097ms
+[debug] [Loading] Scanning directory C:\Users\Asus\Desktop\Chula\Prog Lang\HelloWorld
+[debug]       Load.loadUnit: mkEval took 12.2731ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.7938 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 6.7423ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\Asus\Desktop\Chula\Prog Lang\HelloWorld, plugins: List(<none>))) took 13.8248ms
+[debug] [Loading] Done in C:\Users\Asus\Desktop\Chula\Prog Lang\HelloWorld, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 5150.2241ms
+[debug]     Load.loadUnit: cleanEvalClasses took 32.3059ms
+[debug]   Load.loadUnit(file:/C:/Users/Asus/Desktop/Chula/Prog%20Lang/HelloWorld/, ...) took 12436.8134ms
+[debug] Load.apply: load took 12521.8426ms
+[debug] Load.apply: resolveProjects took 0.1669ms
+[debug] Load.apply: finalTransforms took 31.7698ms
+[debug] Load.apply: config.delegates took 0.654ms
+[debug] Load.apply: Def.make(settings)... took 137.6171ms
+[debug] Load.apply: structureIndex took 55.1577ms
+[debug] Load.apply: mkStreams took 0.0024ms
+[info] set current project to HelloWorld (in build file:/C:/Users/Asus/Desktop/Chula/Prog%20Lang/HelloWorld/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-c4568add06b1c6345b68
+[debug] Writing bsp connection file
+[info] started sbt server
